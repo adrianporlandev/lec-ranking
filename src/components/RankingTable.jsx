@@ -18,70 +18,78 @@ const RankingTable = ({ ranking }) => {
     return 0;
   });
 
-  const requestSort = (key) => {
-    let direction = 'ascending';
-    if (sortConfig.key === key && sortConfig.direction === 'ascending') {
-      direction = 'descending';
-    }
-    setSortConfig({ key, direction });
-  };
+ 
 
   return (
-    <table className="table table-striped mt-3">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th onClick={() => requestSort('realname')}>Jugador</th>
-          <th onClick={() => requestSort('team')}>Rol</th>
-          <th>Nombre de Invocador</th>
-          <th>ELO</th>
-          <th>WR</th>
-          <th>Games</th>
-          <th onClick={() => requestSort('team')}>Equipo</th>
-        </tr>
-      </thead>
-      <tbody>
-        {sortedRanking.length > 0 ? (
-          sortedRanking.map((player, index) => (
-            <tr key={index}>
-              <td>{index + 1}</td>
-              <td>{player.realname}</td>
-              <td>
-                <img
-                  src={`https://res.cloudinary.com/dlfgycfb8/image/upload/v1724868397/lol-project/pos/${player.role}.png`}
-                  alt={player.role}
-                  style={{ width: '40px', marginRight: '10px' }}
-                />
-              </td>
-              <td>{player.name}</td>
-              <td>
-                <img 
-                  src={`https://res.cloudinary.com/dlfgycfb8/image/upload/v1724868748/lol-project/elo/${player.elo.tier}.png`} 
-                  alt={player.elo.tier} 
-                  style={{ width: '40px', marginRight: '10px' }} 
-                  />
-                {player.elo.tier} 
-                {['CHALLENGER', 'GRANDMASTER', 'MASTER'].includes(player.elo.tier) ? '' : ` ${player.elo.rank}`} 
-                {' '}{player.elo.leaguePoints} LP
-              </td>
-              <td>{player.elo.winrate.toFixed(0)}%</td>
-              <td>{player.elo.totalGames}</td>
-              <td>
-                <img
-                  src={`https://res.cloudinary.com/dlfgycfb8/image/upload/v1724868397/lol-project/teams/${player.team}.webp`}
-                  alt={player.team}
-                  style={{ width: '40px', marginRight: '10px' }}
-                />
-              </td>
-            </tr>
-          ))
-        ) : (
+    <div className="container mx-auto mt-5">
+      <h2 className="text-center text-2xl font-bold mb-4">Ranking de Jugadores</h2>
+        <table className="min-w-full bg-white shadow-md rounded-lg overflow-hidden">
+          <thead className="bg-gray-800 text-white">
           <tr>
-            <td colSpan="6">Cargando datos...</td>
+            <th className="w-1/12 py-2">#</th>
+            <th className="w-2/12 py-2">Jugador</th>
+            <th className="w-1/12 py-2">Rol</th>
+            <th className="w-2/12 py-2">Nombre de Invocador</th>
+            <th className="w-2/12 py-2">ELO</th>
+            <th className="w-1/12 py-2">WR</th>
+            <th className="w-1/12 py-2">Games</th>
+            <th className="w-2/12 py-2">Equipo</th>
           </tr>
-        )}
-      </tbody>
-    </table>
+          </thead>
+          <tbody className='bg-gray-700'>
+            {sortedRanking.length > 0 ? (
+              sortedRanking.map((player, index) => (
+                <tr key={index} className="border-b border-black hover:bg-gray-600">
+                <td className="py-2 text-center">{index + 1}</td>
+                <td className="py-2 text-center">
+                <a href={`/players/${player.realname}`} className=" hover:underline">
+                  {player.realname}
+                </a>
+                </td>
+                <td className="py-2 text-center">
+                  <img
+                    src={`https://res.cloudinary.com/dlfgycfb8/image/upload/v1724868748/lol-project/pos/${player.role}.png`}
+                    alt={player.elo.tier}
+                    className="inline-block w-8 h-8 mr-2"
+                  />
+                  
+                  </td>
+                <td className="py-2 text-center">
+                    <a href={`https://www.op.gg/summoners/euw/${player.name}-${player.tag}`} target='_blank' rel='noreferrer noopener'>
+                      {player.name}
+                   </a>
+                  </td>
+                <td className="py-2 text-center">
+                  <img
+                    src={`https://res.cloudinary.com/dlfgycfb8/image/upload/v1724868748/lol-project/elo/${player.elo.tier}.png`}
+                    alt={player.elo.tier}
+                    className="inline-block w-8 h-8 mr-2"
+                  />
+                  {player.elo.tier}
+                  {['CHALLENGER', 'GRANDMASTER', 'MASTER'].includes(player.elo.tier) ? '' : ` ${player.elo.rank}`}
+                  {' '}{player.elo.leaguePoints} LP
+                </td>
+                <td className="py-2 text-center">{player.elo.winrate.toFixed(0)}%</td>
+                <td className="py-2 text-center">{player.elo.totalGames}</td>
+                <td className="py-2 text-center">
+                <a href={`/teams/${player.team}`} className="inline-block">
+                    <img
+                      src={`https://res.cloudinary.com/dlfgycfb8/image/upload/v1724868397/lol-project/teams/${player.team}.webp`}
+                      alt={player.team}
+                      className="inline-block w-8 h-8 mr-2"
+                    />
+                </a>
+                </td>
+              </tr>
+              ))
+            ) : (
+              <tr>
+                <td colSpan="8" className="py-4 text-center">Cargando datos...</td>
+              </tr>
+            )}
+          </tbody>
+        </table>
+    </div>
   );
 };
 

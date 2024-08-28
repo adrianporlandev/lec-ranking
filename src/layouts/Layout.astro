@@ -1,7 +1,4 @@
 ---
-// src/layouts/Layout.astro
-
-
 interface Props {
   title: string;
 }
@@ -27,8 +24,8 @@ const { title } = Astro.props;
         <nav class="ml-auto flex gap-4 sm:gap-6">
           <a class="text-sm font-medium hover:text-yellow-500 text-gray-300" href="/">Inicio</a>
           <a class="text-sm font-medium hover:text-yellow-500 text-gray-300" href="/jugadores">Jugadores</a>
-          <a class="text-sm font-medium hover:text-yellow-500 text-gray-300" href="/equipos">Equipos</a>
           <a class="text-sm font-medium hover:text-yellow-500 text-gray-300" href="/ranking">Ranking</a>
+          <a class="text-sm font-medium hover:text-yellow-500 text-gray-300" href="#teams">Equipos</a>
         </nav>
       </header>
 
@@ -37,11 +34,9 @@ const { title } = Astro.props;
       <footer class="mt-auto flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-gray-800">
         <p class="text-xs text-gray-500">© 2023 LEC ELO Tracker. Todos los derechos reservados.</p>
         <nav class="sm:ml-auto flex gap-4 sm:gap-6">
-          <a class="text-xs hover:underline underline-offset-4 text-gray-500" href="/terminos">Términos de Servicio</a>
-          <a class="text-xs hover:underline underline-offset-4 text-gray-500" href="/privacidad">Privacidad</a>
-        </nav>
       </footer>
     </div>
+
   </body>
 </html>
 
@@ -54,6 +49,7 @@ const { title } = Astro.props;
     font-family: system-ui, sans-serif;
     background-color: #13151a;
     color: #ffffff;
+    scroll-behavior: smooth;
   }
   code {
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,

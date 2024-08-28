@@ -6,5 +6,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), icon(), tailwind()]
+  integrations: [react(), icon(), tailwind()],
+  output: 'server', // o 'hybrid' para SSR
 });
