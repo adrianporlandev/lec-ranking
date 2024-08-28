@@ -1,0 +1,22 @@
+---
+import RankingTable from '../components/RankingTable.astro';
+
+const response = await fetch('http://localhost:3000/ranking'); // URL de tu API
+const ranking = await response.json();
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranking de Jugadores LEC</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Ranking de ELO de Jugadores LEC</h1>
+    <RankingTable ranking={ranking} />
+  </div>
+</body>
+</html>
