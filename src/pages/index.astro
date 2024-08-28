@@ -1,9 +1,7 @@
 ---
-import RankingTable from '../components/RankingTable.astro';
-import { loadEnv } from 'vite';
+import RankingTableComponent from '../components/RankingTable.jsx';
 
-const env = loadEnv(import.meta.env.MODE, process.cwd(), '');
-const response = await fetch(env.VITE_API_URL); // URL de tu API desde el .env
+const response = await fetch(import.meta.env.VITE_API_URL);
 const ranking = await response.json();
 ---
 
@@ -18,7 +16,7 @@ const ranking = await response.json();
 <body>
   <div class="container mt-5">
     <h1 class="text-center">Ranking de ELO de Jugadores LEC</h1>
-    <RankingTable ranking={ranking} />
+    <RankingTableComponent ranking={ranking} />
   </div>
 </body>
 </html>

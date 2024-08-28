@@ -48,7 +48,7 @@ const RankingTable = ({ ranking }) => {
               <td>{player.realname}</td>
               <td>
                 <img
-                  src={`src/pos/${player.role}.png`}
+                  src={`https://res.cloudinary.com/dlfgycfb8/image/upload/v1724868397/lol-project/pos/${player.role}.png`}
                   alt={player.role}
                   style={{ width: '40px', marginRight: '10px' }}
                 />
@@ -56,7 +56,7 @@ const RankingTable = ({ ranking }) => {
               <td>{player.name}</td>
               <td>
                 <img 
-                  src={`src/elo/Rank=${player.elo.tier}.png`} 
+                  src={`https://res.cloudinary.com/dlfgycfb8/image/upload/v1724868748/lol-project/elo/${player.elo.tier}.png`} 
                   alt={player.elo.tier} 
                   style={{ width: '40px', marginRight: '10px' }} 
                   />
@@ -68,7 +68,7 @@ const RankingTable = ({ ranking }) => {
               <td>{player.elo.totalGames}</td>
               <td>
                 <img
-                  src={`src/teams/${player.team}.webp`}
+                  src={`https://res.cloudinary.com/dlfgycfb8/image/upload/v1724868397/lol-project/teams/${player.team}.webp`}
                   alt={player.team}
                   style={{ width: '40px', marginRight: '10px' }}
                 />
