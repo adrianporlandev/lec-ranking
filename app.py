@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-PORT = os.getenv('PORT')
+
 API_KEY = os.getenv('API_KEY')
 players = [
     # Mad Lion
@@ -171,4 +171,4 @@ def get_ranking():
 
 if __name__ == '__main__':
     update_ranking()  # Actualizar el ranking inmediatamente al iniciar el servidor
-    app.run(port=PORT)
+    app.run()
