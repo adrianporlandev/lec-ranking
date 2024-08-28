@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-PORT = int(os.getenv('PORT', 3000))
+PORT = 3000
 API_KEY = os.getenv('API_KEY')
 players = [
     # Mad Lion

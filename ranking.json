@@ -24,11 +24,27 @@
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1799,
-      "wins": 245,
+      "leaguePoints": 1822,
+      "wins": 246,
       "losses": 177,
-      "winrate": 58.0568720379147,
-      "totalGames": 422
+      "winrate": 58.156028368794324,
+      "totalGames": 423
+    }
+  },
+  {
+    "name": "Upset",
+    "tag": "asdff",
+    "realname": "Upset",
+    "team": "KC",
+    "role": "adc",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1778,
+      "wins": 372,
+      "losses": 306,
+      "winrate": 54.86725663716814,
+      "totalGames": 678
     }
   },
   {
@@ -45,22 +61,6 @@
       "losses": 157,
       "winrate": 58.575197889182064,
       "totalGames": 379
-    }
-  },
-  {
-    "name": "Upset",
-    "tag": "asdff",
-    "realname": "Upset",
-    "team": "KC",
-    "role": "adc",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1756,
-      "wins": 371,
-      "losses": 306,
-      "winrate": 54.800590841949784,
-      "totalGames": 677
     }
   },
   {
@@ -240,22 +240,6 @@
     }
   },
   {
-    "name": "papi oscar",
-    "tag": "GOAT",
-    "realname": "Oscarinin",
-    "team": "FNC",
-    "role": "top",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1402,
-      "wins": 362,
-      "losses": 302,
-      "winrate": 54.51807228915663,
-      "totalGames": 664
-    }
-  },
-  {
     "name": "C1oser",
     "tag": "EUW",
     "realname": "Closer",
@@ -272,6 +256,22 @@
     }
   },
   {
+    "name": "papi oscar",
+    "tag": "GOAT",
+    "realname": "Oscarinin",
+    "team": "FNC",
+    "role": "top",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1379,
+      "wins": 362,
+      "losses": 303,
+      "winrate": 54.4360902255639,
+      "totalGames": 665
+    }
+  },
+  {
     "name": "I will win LEC",
     "tag": "4321",
     "realname": "Vetheo",
@@ -280,11 +280,11 @@
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1347,
+      "leaguePoints": 1330,
       "wins": 240,
-      "losses": 183,
-      "winrate": 56.73758865248227,
-      "totalGames": 423
+      "losses": 184,
+      "winrate": 56.60377358490566,
+      "totalGames": 424
     }
   },
   {
@@ -336,22 +336,6 @@
     }
   },
   {
-    "name": "TheShackledOne",
-    "tag": "005",
-    "realname": "Mikyx",
-    "team": "G2",
-    "role": "support",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1285,
-      "wins": 216,
-      "losses": 169,
-      "winrate": 56.1038961038961,
-      "totalGames": 385
-    }
-  },
-  {
     "name": "CHAUVESQY",
     "tag": "LEC",
     "realname": "Nisqy",
@@ -368,19 +352,19 @@
     }
   },
   {
-    "name": "Noah7",
-    "tag": "Euw2",
-    "realname": "Noah",
-    "team": "FNC",
-    "role": "adc",
+    "name": "TheShackledOne",
+    "tag": "005",
+    "realname": "Mikyx",
+    "team": "G2",
+    "role": "support",
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
       "leaguePoints": 1268,
-      "wins": 266,
-      "losses": 221,
-      "winrate": 54.62012320328542,
-      "totalGames": 487
+      "wins": 216,
+      "losses": 170,
+      "winrate": 55.95854922279793,
+      "totalGames": 386
     }
   },
   {
@@ -413,6 +397,22 @@
       "losses": 179,
       "winrate": 56.01965601965602,
       "totalGames": 407
+    }
+  },
+  {
+    "name": "Noah7",
+    "tag": "Euw2",
+    "realname": "Noah",
+    "team": "FNC",
+    "role": "adc",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1242,
+      "wins": 266,
+      "losses": 222,
+      "winrate": 54.50819672131148,
+      "totalGames": 488
     }
   },
   {
@@ -528,22 +528,6 @@
     }
   },
   {
-    "name": "J1HUIV",
-    "tag": "000",
-    "realname": "Vladi",
-    "team": "KC",
-    "role": "mid",
-    "elo": {
-      "tier": "GRANDMASTER",
-      "rank": "I",
-      "leaguePoints": 1138,
-      "wins": 427,
-      "losses": 380,
-      "winrate": 52.91201982651796,
-      "totalGames": 807
-    }
-  },
-  {
     "name": "Wesley Warren Jr",
     "tag": "EUW",
     "realname": "Humanoid",
@@ -573,6 +557,22 @@
       "losses": 218,
       "winrate": 54.67775467775468,
       "totalGames": 481
+    }
+  },
+  {
+    "name": "J1HUIV",
+    "tag": "000",
+    "realname": "Vladi",
+    "team": "KC",
+    "role": "mid",
+    "elo": {
+      "tier": "GRANDMASTER",
+      "rank": "I",
+      "leaguePoints": 1113,
+      "wins": 427,
+      "losses": 381,
+      "winrate": 52.84653465346535,
+      "totalGames": 808
     }
   },
   {
@@ -664,11 +664,11 @@
     "elo": {
       "tier": "MASTER",
       "rank": "I",
-      "leaguePoints": 694,
+      "leaguePoints": 677,
       "wins": 95,
-      "losses": 67,
-      "winrate": 58.64197530864198,
-      "totalGames": 162
+      "losses": 68,
+      "winrate": 58.282208588957054,
+      "totalGames": 163
     }
   },
   {
