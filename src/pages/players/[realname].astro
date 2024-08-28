@@ -6,14 +6,14 @@ import Layout from '../../layouts/Layout.astro';
 const { realname } = Astro.params;
 
 // Función para obtener la información de un jugador desde la API
-async function fetchPlayer(realname) {
+async function fetchPlayer(realname: string) {
   const response = await fetch(`https://lec-ranking.onrender.com/ranking`);
   const players = await response.json();
-  return players.find(player => player.realname.toLowerCase() === realname.toLowerCase());
+  return players.find((player: any) => player.realname.toLowerCase() === realname.toLowerCase());
 }
 
 // Obtén la información del jugador
-const player = await fetchPlayer(realname);
+const player = await fetchPlayer(realname as string);
 if (!player) {
   throw new Error('Jugador no encontrado');
 }
@@ -22,7 +22,7 @@ if (!player) {
 export async function getStaticPaths() {
   const response = await fetch(`https://lec-ranking.onrender.com/ranking`);
   const players = await response.json();
-  const realnames = [...new Set(players.map(player => player.realname.toLowerCase()))];
+  const realnames = [...new Set(players.map((player: any) => player.realname.toLowerCase()))];
 
   return realnames.map(realname => ({
     params: { realname }
