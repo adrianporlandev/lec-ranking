@@ -1,7 +1,9 @@
 ---
 import RankingTable from '../components/RankingTable.astro';
+import { loadEnv } from 'vite';
 
-const response = await fetch('http://localhost:3000/ranking'); // URL de tu API
+const env = loadEnv(import.meta.env.MODE, process.cwd(), '');
+const response = await fetch(env.VITE_API_URL); // URL de tu API desde el .env
 const ranking = await response.json();
 ---
 
