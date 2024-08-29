@@ -18,7 +18,7 @@ export default function SearchPlayer() {
 
   return (
     <div className="Search">
-      <h1 className="text-2xl text-white mb-4">Buscar Jugador Pro</h1>
+     
 
       <form className="w-full max-w-sm space-y-2" onSubmit={onSearch}>
         <div className="flex space-x-2">
