@@ -8,12 +8,13 @@
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 2067,
-      "wins": 364,
-      "losses": 283,
-      "winrate": 56.25965996908809,
-      "totalGames": 647
-    }
+      "leaguePoints": 2026,
+      "wins": 366,
+      "losses": 286,
+      "winrate": 56.13496932515337,
+      "totalGames": 652
+    },
+    "in_game": false
   },
   {
     "name": "school phobia",
@@ -29,7 +30,8 @@
       "losses": 157,
       "winrate": 58.575197889182064,
       "totalGames": 379
-    }
+    },
+    "in_game": false
   },
   {
     "name": "Targamas",
@@ -40,12 +42,13 @@
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1737,
-      "wins": 239,
-      "losses": 173,
-      "winrate": 58.009708737864074,
-      "totalGames": 412
-    }
+      "leaguePoints": 1763,
+      "wins": 242,
+      "losses": 174,
+      "winrate": 58.17307692307693,
+      "totalGames": 416
+    },
+    "in_game": false
   },
   {
     "name": "VIT top boy",
@@ -56,44 +59,13 @@
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1734,
-      "wins": 248,
-      "losses": 183,
-      "winrate": 57.540603248259856,
-      "totalGames": 431
-    }
-  },
-  {
-    "name": "Upset",
-    "tag": "asdff",
-    "realname": "Upset",
-    "team": "KC",
-    "role": "adc",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1731,
-      "wins": 375,
-      "losses": 311,
-      "winrate": 54.66472303206997,
-      "totalGames": 686
-    }
-  },
-  {
-    "name": "Rahel",
-    "tag": "213",
-    "realname": "Rahel",
-    "team": "SK",
-    "role": "adc",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1705,
-      "wins": 229,
-      "losses": 161,
-      "winrate": 58.71794871794872,
-      "totalGames": 390
-    }
+      "leaguePoints": 1724,
+      "wins": 257,
+      "losses": 191,
+      "winrate": 57.36607142857143,
+      "totalGames": 448
+    },
+    "in_game": false
   },
   {
     "name": "TheShackledOne",
@@ -104,12 +76,13 @@
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1704,
-      "wins": 301,
-      "losses": 235,
-      "winrate": 56.156716417910445,
-      "totalGames": 536
-    }
+      "leaguePoints": 1709,
+      "wins": 306,
+      "losses": 239,
+      "winrate": 56.14678899082569,
+      "totalGames": 545
+    },
+    "in_game": false
   },
   {
     "name": "TheShackledOne",
@@ -120,44 +93,13 @@
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1594,
-      "wins": 269,
-      "losses": 207,
-      "winrate": 56.51260504201681,
-      "totalGames": 476
-    }
-  },
-  {
-    "name": "Juhana",
-    "tag": "GXP",
-    "realname": "Juhan",
-    "team": "GX",
-    "role": "jungle",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1590,
-      "wins": 420,
-      "losses": 358,
-      "winrate": 53.98457583547558,
-      "totalGames": 778
-    }
-  },
-  {
-    "name": "tukaan",
-    "tag": "tukan",
-    "realname": "Supa",
-    "team": "MDK",
-    "role": "adc",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1582,
-      "wins": 235,
-      "losses": 177,
-      "winrate": 57.03883495145631,
-      "totalGames": 412
-    }
+      "leaguePoints": 1654,
+      "wins": 279,
+      "losses": 213,
+      "winrate": 56.70731707317073,
+      "totalGames": 492
+    },
+    "in_game": false
   },
   {
     "name": "G2 Humanoid",
@@ -168,12 +110,30 @@
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1579,
-      "wins": 216,
-      "losses": 152,
-      "winrate": 58.69565217391305,
-      "totalGames": 368
-    }
+      "leaguePoints": 1626,
+      "wins": 220,
+      "losses": 153,
+      "winrate": 58.98123324396782,
+      "totalGames": 373
+    },
+    "in_game": false
+  },
+  {
+    "name": "Rahel",
+    "tag": "213",
+    "realname": "Rahel",
+    "team": "SK",
+    "role": "adc",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1555,
+      "wins": 229,
+      "losses": 161,
+      "winrate": 58.71794871794872,
+      "totalGames": 390
+    },
+    "in_game": false
   },
   {
     "name": "happy game",
@@ -189,39 +149,59 @@
       "losses": 275,
       "winrate": 54.62046204620462,
       "totalGames": 606
-    }
+    },
+    "in_game": false
   },
   {
-    "name": "I will win LEC",
-    "tag": "4321",
-    "realname": "Vetheo",
-    "team": "VIT",
-    "role": "mid",
+    "name": "Upset",
+    "tag": "asdff",
+    "realname": "Upset",
+    "team": "KC",
+    "role": "adc",
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1436,
-      "wins": 246,
-      "losses": 185,
-      "winrate": 57.076566125290014,
-      "totalGames": 431
-    }
+      "leaguePoints": 1494,
+      "wins": 386,
+      "losses": 332,
+      "winrate": 53.760445682451255,
+      "totalGames": 718
+    },
+    "in_game": false
   },
   {
-    "name": "Barkoon",
-    "tag": "woof",
-    "realname": "Markoon",
-    "team": "RGE",
+    "name": "tukaan",
+    "tag": "tukan",
+    "realname": "Supa",
+    "team": "MDK",
+    "role": "adc",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1447,
+      "wins": 238,
+      "losses": 186,
+      "winrate": 56.132075471698116,
+      "totalGames": 424
+    },
+    "in_game": false
+  },
+  {
+    "name": "Juhana",
+    "tag": "GXP",
+    "realname": "Juhan",
+    "team": "GX",
     "role": "jungle",
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1430,
-      "wins": 332,
-      "losses": 277,
-      "winrate": 54.51559934318555,
-      "totalGames": 609
-    }
+      "leaguePoints": 1440,
+      "wins": 420,
+      "losses": 358,
+      "winrate": 53.98457583547558,
+      "totalGames": 778
+    },
+    "in_game": false
   },
   {
     "name": "Raz\u00f8rk Activoo",
@@ -237,7 +217,8 @@
       "losses": 73,
       "winrate": 62.944162436548226,
       "totalGames": 197
-    }
+    },
+    "in_game": false
   },
   {
     "name": "TheShackledOne",
@@ -248,12 +229,30 @@
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1408,
-      "wins": 250,
-      "losses": 194,
-      "winrate": 56.30630630630631,
-      "totalGames": 444
-    }
+      "leaguePoints": 1403,
+      "wins": 252,
+      "losses": 196,
+      "winrate": 56.25,
+      "totalGames": 448
+    },
+    "in_game": false
+  },
+  {
+    "name": "alvarooo",
+    "tag": "EUW",
+    "realname": "Alvaro",
+    "team": "MDK",
+    "role": "support",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1395,
+      "wins": 340,
+      "losses": 286,
+      "winrate": 54.31309904153354,
+      "totalGames": 626
+    },
+    "in_game": false
   },
   {
     "name": "C1oser",
@@ -264,28 +263,47 @@
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1383,
-      "wins": 247,
-      "losses": 195,
-      "winrate": 55.88235294117647,
-      "totalGames": 442
-    }
+      "leaguePoints": 1392,
+      "wins": 250,
+      "losses": 197,
+      "winrate": 55.92841163310962,
+      "totalGames": 447
+    },
+    "in_game": false
   },
   {
-    "name": "papi oscar",
-    "tag": "GOAT",
-    "realname": "Oscarinin",
-    "team": "FNC",
-    "role": "top",
+    "name": "Mametchi",
+    "tag": "tukan",
+    "realname": "Fresskowy",
+    "team": "MDK",
+    "role": "mid",
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1356,
-      "wins": 364,
-      "losses": 306,
-      "winrate": 54.328358208955216,
-      "totalGames": 670
-    }
+      "leaguePoints": 1339,
+      "wins": 304,
+      "losses": 246,
+      "winrate": 55.27272727272727,
+      "totalGames": 550
+    },
+    "in_game": false
+  },
+  {
+    "name": "I will win LEC",
+    "tag": "4321",
+    "realname": "Vetheo",
+    "team": "VIT",
+    "role": "mid",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1338,
+      "wins": 265,
+      "losses": 209,
+      "winrate": 55.907172995780584,
+      "totalGames": 474
+    },
+    "in_game": false
   },
   {
     "name": "Luon",
@@ -301,39 +319,42 @@
       "losses": 194,
       "winrate": 55.90909090909091,
       "totalGames": 440
-    }
+    },
+    "in_game": false
   },
   {
-    "name": "alvarooo",
-    "tag": "EUW",
-    "realname": "Alvaro",
-    "team": "MDK",
+    "name": "TheShackledOne",
+    "tag": "005",
+    "realname": "Mikyx",
+    "team": "G2",
     "role": "support",
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1301,
-      "wins": 328,
-      "losses": 280,
-      "winrate": 53.94736842105263,
-      "totalGames": 608
-    }
+      "leaguePoints": 1288,
+      "wins": 225,
+      "losses": 177,
+      "winrate": 55.970149253731336,
+      "totalGames": 402
+    },
+    "in_game": false
   },
   {
-    "name": "CHAUVESQY",
-    "tag": "LEC",
-    "realname": "Nisqy",
-    "team": "SK",
-    "role": "mid",
+    "name": "komanche uchiha",
+    "tag": "elite",
+    "realname": "Elyoya",
+    "team": "MDK",
+    "role": "jungle",
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1271,
-      "wins": 265,
-      "losses": 213,
-      "winrate": 55.43933054393305,
-      "totalGames": 478
-    }
+      "leaguePoints": 1262,
+      "wins": 337,
+      "losses": 280,
+      "winrate": 54.619124797406805,
+      "totalGames": 617
+    },
+    "in_game": false
   },
   {
     "name": "LeonardoDiCassio",
@@ -349,215 +370,8 @@
       "losses": 186,
       "winrate": 55.714285714285715,
       "totalGames": 420
-    }
-  },
-  {
-    "name": "sorry for ping",
-    "tag": "1305",
-    "realname": "Sheo",
-    "team": "BDS",
-    "role": "jungle",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1234,
-      "wins": 235,
-      "losses": 197,
-      "winrate": 54.39814814814815,
-      "totalGames": 432
-    }
-  },
-  {
-    "name": "Lamine Yamal",
-    "tag": "Annie",
-    "realname": "Myrwn",
-    "team": "MDK",
-    "role": "top",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1232,
-      "wins": 141,
-      "losses": 97,
-      "winrate": 59.2436974789916,
-      "totalGames": 238
-    }
-  },
-  {
-    "name": "Noah7",
-    "tag": "Euw2",
-    "realname": "Noah",
-    "team": "FNC",
-    "role": "adc",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1224,
-      "wins": 268,
-      "losses": 224,
-      "winrate": 54.47154471544715,
-      "totalGames": 492
-    }
-  },
-  {
-    "name": "Ana de Armas",
-    "tag": "SMRAD",
-    "realname": "Jackies",
-    "team": "GX",
-    "role": "mid",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1224,
-      "wins": 228,
-      "losses": 180,
-      "winrate": 55.88235294117647,
-      "totalGames": 408
-    }
-  },
-  {
-    "name": "TheShackledOne",
-    "tag": "005",
-    "realname": "Mikyx",
-    "team": "G2",
-    "role": "support",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1204,
-      "wins": 217,
-      "losses": 174,
-      "winrate": 55.49872122762148,
-      "totalGames": 391
-    }
-  },
-  {
-    "name": "PlaceHolderJG",
-    "tag": "HRT",
-    "realname": "Jankos",
-    "team": "TH",
-    "role": "jungle",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1202,
-      "wins": 347,
-      "losses": 300,
-      "winrate": 53.63214837712519,
-      "totalGames": 647
-    }
-  },
-  {
-    "name": "komanche uchiha",
-    "tag": "elite",
-    "realname": "Elyoya",
-    "team": "MDK",
-    "role": "jungle",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1200,
-      "wins": 330,
-      "losses": 277,
-      "winrate": 54.36573311367381,
-      "totalGames": 607
-    }
-  },
-  {
-    "name": "Mametchi",
-    "tag": "tukan",
-    "realname": "Fresskowy",
-    "team": "MDK",
-    "role": "mid",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1186,
-      "wins": 292,
-      "losses": 242,
-      "winrate": 54.68164794007491,
-      "totalGames": 534
-    }
-  },
-  {
-    "name": "Kite Machine",
-    "tag": "EUW",
-    "realname": "Comp",
-    "team": "RGE",
-    "role": "adc",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1181,
-      "wins": 361,
-      "losses": 312,
-      "winrate": 53.64041604754829,
-      "totalGames": 673
-    }
-  },
-  {
-    "name": "CEXMONSTER",
-    "tag": "CEX69",
-    "realname": "Trymbi",
-    "team": "TH",
-    "role": "support",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1170,
-      "wins": 138,
-      "losses": 98,
-      "winrate": 58.47457627118644,
-      "totalGames": 236
-    }
-  },
-  {
-    "name": "Wesley Warren Jr",
-    "tag": "EUW",
-    "realname": "Humanoid",
-    "team": "FNC",
-    "role": "mid",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1157,
-      "wins": 309,
-      "losses": 265,
-      "winrate": 53.83275261324042,
-      "totalGames": 574
-    }
-  },
-  {
-    "name": "TheShackledOne",
-    "tag": "002",
-    "realname": "Yike",
-    "team": "G2",
-    "role": "jungle",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1154,
-      "wins": 269,
-      "losses": 221,
-      "winrate": 54.89795918367347,
-      "totalGames": 490
-    }
-  },
-  {
-    "name": "J1HUIV",
-    "tag": "000",
-    "realname": "Vladi",
-    "team": "KC",
-    "role": "mid",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1148,
-      "wins": 432,
-      "losses": 384,
-      "winrate": 52.94117647058824,
-      "totalGames": 816
-    }
+    },
+    "in_game": false
   },
   {
     "name": "xwcyw",
@@ -568,44 +382,217 @@
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1145,
-      "wins": 233,
-      "losses": 188,
-      "winrate": 55.34441805225653,
-      "totalGames": 421
-    }
+      "leaguePoints": 1238,
+      "wins": 247,
+      "losses": 196,
+      "winrate": 55.75620767494357,
+      "totalGames": 443
+    },
+    "in_game": false
   },
   {
-    "name": "Nothing much",
+    "name": "Ana de Armas",
+    "tag": "SMRAD",
+    "realname": "Jackies",
+    "team": "GX",
+    "role": "mid",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1213,
+      "wins": 241,
+      "losses": 192,
+      "winrate": 55.65819861431871,
+      "totalGames": 433
+    },
+    "in_game": false
+  },
+  {
+    "name": "Kite Machine",
     "tag": "EUW",
-    "realname": "Adam",
-    "team": "BDS",
-    "role": "top",
+    "realname": "Comp",
+    "team": "RGE",
+    "role": "adc",
     "elo": {
-      "tier": "GRANDMASTER",
+      "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1105,
-      "wins": 304,
-      "losses": 254,
-      "winrate": 54.48028673835126,
-      "totalGames": 558
-    }
+      "leaguePoints": 1205,
+      "wins": 377,
+      "losses": 326,
+      "winrate": 53.62731152204836,
+      "totalGames": 703
+    },
+    "in_game": false
   },
   {
-    "name": "yuqi",
-    "tag": "golem",
-    "realname": "Irrelevant",
+    "name": "PlaceHolderJG",
+    "tag": "HRT",
+    "realname": "Jankos",
+    "team": "TH",
+    "role": "jungle",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1204,
+      "wins": 357,
+      "losses": 309,
+      "winrate": 53.6036036036036,
+      "totalGames": 666
+    },
+    "in_game": false
+  },
+  {
+    "name": "786786786",
+    "tag": "LEC1",
+    "realname": "Isma",
     "team": "SK",
+    "role": "jungle",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1182,
+      "wins": 257,
+      "losses": 208,
+      "winrate": 55.26881720430108,
+      "totalGames": 465
+    },
+    "in_game": false
+  },
+  {
+    "name": "TheShackledOne",
+    "tag": "002",
+    "realname": "Yike",
+    "team": "G2",
+    "role": "jungle",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1176,
+      "wins": 275,
+      "losses": 225,
+      "winrate": 55.00000000000001,
+      "totalGames": 500
+    },
+    "in_game": false
+  },
+  {
+    "name": "CEXMONSTER",
+    "tag": "CEX69",
+    "realname": "Trymbi",
+    "team": "TH",
+    "role": "support",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1160,
+      "wins": 141,
+      "losses": 101,
+      "winrate": 58.26446280991735,
+      "totalGames": 242
+    },
+    "in_game": false
+  },
+  {
+    "name": "Noah7",
+    "tag": "Euw2",
+    "realname": "Noah",
+    "team": "FNC",
+    "role": "adc",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1159,
+      "wins": 275,
+      "losses": 233,
+      "winrate": 54.13385826771654,
+      "totalGames": 508
+    },
+    "in_game": false
+  },
+  {
+    "name": "sorry for ping",
+    "tag": "1305",
+    "realname": "Sheo",
+    "team": "BDS",
+    "role": "jungle",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1149,
+      "wins": 240,
+      "losses": 205,
+      "winrate": 53.93258426966292,
+      "totalGames": 445
+    },
+    "in_game": false
+  },
+  {
+    "name": "papi oscar",
+    "tag": "GOAT",
+    "realname": "Oscarinin",
+    "team": "FNC",
+    "role": "top",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1144,
+      "wins": 364,
+      "losses": 316,
+      "winrate": 53.529411764705884,
+      "totalGames": 680
+    },
+    "in_game": false
+  },
+  {
+    "name": "Wesley Warren Jr",
+    "tag": "EUW",
+    "realname": "Humanoid",
+    "team": "FNC",
+    "role": "mid",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1140,
+      "wins": 319,
+      "losses": 275,
+      "winrate": 53.70370370370371,
+      "totalGames": 594
+    },
+    "in_game": false
+  },
+  {
+    "name": "Lamine Yamal",
+    "tag": "Annie",
+    "realname": "Myrwn",
+    "team": "MDK",
     "role": "top",
     "elo": {
       "tier": "GRANDMASTER",
       "rank": "I",
-      "leaguePoints": 1054,
-      "wins": 234,
-      "losses": 188,
-      "winrate": 55.45023696682464,
-      "totalGames": 422
-    }
+      "leaguePoints": 1090,
+      "wins": 144,
+      "losses": 106,
+      "winrate": 57.599999999999994,
+      "totalGames": 250
+    },
+    "in_game": false
+  },
+  {
+    "name": "CHAUVESQY",
+    "tag": "LEC",
+    "realname": "Nisqy",
+    "team": "SK",
+    "role": "mid",
+    "elo": {
+      "tier": "GRANDMASTER",
+      "rank": "I",
+      "leaguePoints": 1046,
+      "wins": 265,
+      "losses": 213,
+      "winrate": 55.43933054393305,
+      "totalGames": 478
+    },
+    "in_game": false
   },
   {
     "name": "BDSnuc",
@@ -616,28 +603,47 @@
     "elo": {
       "tier": "GRANDMASTER",
       "rank": "I",
-      "leaguePoints": 1032,
-      "wins": 261,
-      "losses": 217,
-      "winrate": 54.60251046025104,
-      "totalGames": 478
-    }
+      "leaguePoints": 1021,
+      "wins": 272,
+      "losses": 227,
+      "winrate": 54.50901803607214,
+      "totalGames": 499
+    },
+    "in_game": false
   },
   {
-    "name": "786786786",
-    "tag": "LEC1",
-    "realname": "Isma",
-    "team": "SK",
-    "role": "jungle",
+    "name": "J1HUIV",
+    "tag": "000",
+    "realname": "Vladi",
+    "team": "KC",
+    "role": "mid",
     "elo": {
       "tier": "GRANDMASTER",
       "rank": "I",
-      "leaguePoints": 987,
-      "wins": 238,
-      "losses": 201,
-      "winrate": 54.21412300683372,
-      "totalGames": 439
-    }
+      "leaguePoints": 975,
+      "wins": 449,
+      "losses": 407,
+      "winrate": 52.453271028037385,
+      "totalGames": 856
+    },
+    "in_game": false
+  },
+  {
+    "name": "Nothing much",
+    "tag": "EUW",
+    "realname": "Adam",
+    "team": "BDS",
+    "role": "top",
+    "elo": {
+      "tier": "GRANDMASTER",
+      "rank": "I",
+      "leaguePoints": 919,
+      "wins": 312,
+      "losses": 270,
+      "winrate": 53.608247422680414,
+      "totalGames": 582
+    },
+    "in_game": false
   },
   {
     "name": "TH3",
@@ -648,12 +654,30 @@
     "elo": {
       "tier": "GRANDMASTER",
       "rank": "I",
-      "leaguePoints": 982,
-      "wins": 323,
-      "losses": 285,
-      "winrate": 53.125,
-      "totalGames": 608
-    }
+      "leaguePoints": 911,
+      "wins": 324,
+      "losses": 289,
+      "winrate": 52.85481239804242,
+      "totalGames": 613
+    },
+    "in_game": false
+  },
+  {
+    "name": "yuqi",
+    "tag": "golem",
+    "realname": "Irrelevant",
+    "team": "SK",
+    "role": "top",
+    "elo": {
+      "tier": "GRANDMASTER",
+      "rank": "I",
+      "leaguePoints": 850,
+      "wins": 235,
+      "losses": 188,
+      "winrate": 55.55555555555556,
+      "totalGames": 423
+    },
+    "in_game": false
   },
   {
     "name": "Finn",
@@ -664,12 +688,13 @@
     "elo": {
       "tier": "MASTER",
       "rank": "I",
-      "leaguePoints": 686,
-      "wins": 98,
-      "losses": 71,
-      "winrate": 57.98816568047337,
-      "totalGames": 169
-    }
+      "leaguePoints": 689,
+      "wins": 99,
+      "losses": 72,
+      "winrate": 57.89473684210527,
+      "totalGames": 171
+    },
+    "in_game": false
   },
   {
     "name": "qrds",
@@ -678,30 +703,32 @@
     "team": "FNC",
     "role": "support",
     "elo": {
-      "tier": "MASTER",
+      "tier": "DIAMOND",
       "rank": "I",
-      "leaguePoints": 143,
+      "leaguePoints": 75,
       "wins": 79,
       "losses": 37,
       "winrate": 68.10344827586206,
       "totalGames": 116
-    }
+    },
+    "in_game": false
   },
   {
-    "name": "Walid Georgey",
-    "tag": "EUW",
-    "realname": "Zoelys",
-    "team": "RGE",
-    "role": "support",
+    "name": "EJRKLJ0",
+    "tag": "0000",
+    "realname": "Canna",
+    "team": "KC",
+    "role": "top",
     "elo": {
       "tier": "DIAMOND",
       "rank": "I",
       "leaguePoints": 75,
-      "wins": 124,
-      "losses": 92,
+      "wins": 217,
+      "losses": 161,
       "winrate": 57.407407407407405,
-      "totalGames": 216
-    }
+      "totalGames": 378
+    },
+    "in_game": false
   },
   {
     "name": "Wunderwear",
@@ -711,13 +738,14 @@
     "role": "top",
     "elo": {
       "tier": "DIAMOND",
-      "rank": "I",
+      "rank": "II",
       "leaguePoints": 75,
       "wins": 53,
       "losses": 37,
       "winrate": 58.88888888888889,
       "totalGames": 90
-    }
+    },
+    "in_game": false
   },
   {
     "name": "is it just me",
@@ -733,7 +761,8 @@
       "losses": 121,
       "winrate": 56.4748201438849,
       "totalGames": 278
-    }
+    },
+    "in_game": false
   },
   {
     "name": "Peshon",
@@ -749,23 +778,8 @@
       "losses": 100,
       "winrate": 56.709956709956714,
       "totalGames": 231
-    }
-  },
-  {
-    "name": "EJRKLJ0",
-    "tag": "0000",
-    "realname": "Canna",
-    "team": "KC",
-    "role": "top",
-    "elo": {
-      "tier": "MASTER",
-      "rank": "I",
-      "leaguePoints": 62,
-      "wins": 217,
-      "losses": 161,
-      "winrate": 57.407407407407405,
-      "totalGames": 378
-    }
+    },
+    "in_game": false
   },
   {
     "name": "george kittle",
@@ -774,13 +788,31 @@
     "team": "RGE",
     "role": "mid",
     "elo": {
-      "tier": "DIAMOND",
+      "tier": "MASTER",
       "rank": "I",
-      "leaguePoints": 16,
-      "wins": 112,
+      "leaguePoints": 0,
+      "wins": 115,
       "losses": 88,
-      "winrate": 56.00000000000001,
-      "totalGames": 200
-    }
+      "winrate": 56.65024630541872,
+      "totalGames": 203
+    },
+    "in_game": false
+  },
+  {
+    "name": "Walid Georgey",
+    "tag": "EUW",
+    "realname": "Zoelys",
+    "team": "RGE",
+    "role": "support",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 0,
+      "wins": 125,
+      "losses": 93,
+      "winrate": 57.3394495412844,
+      "totalGames": 218
+    },
+    "in_game": false
   }
 ]

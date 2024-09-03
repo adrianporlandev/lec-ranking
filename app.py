@@ -130,21 +130,41 @@ def get_elo(summoner_id):
         print(f"Error obteniendo ELO para Summoner ID {summoner_id}: {e}")
         return None
 
+# Nueva función para verificar si el jugador está en partida
+def is_in_game(summoner_id):
+    try:
+        url = f"https://euw1.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/{summoner_id}?api_key={API_KEY}"
+        response = requests.get(url)
+        if response.status_code == 200:
+            return True  # El jugador está en una partida
+        elif response.status_code == 404:
+            return False  # El jugador no está en una partida
+        else:
+            print(f"Error verificando partida para Summoner ID {summoner_id}: {response.status_code}")
+            return None
+    except requests.RequestException as e:
+        print(f"Error verificando partida para Summoner ID {summoner_id}: {e}")
+        return None
+
 def update_ranking():
     updated_players = []
     for player in players:
         puuid = get_puuid(player['name'], player['tag'])
         if not puuid:
-            updated_players.append({**player, "elo": None})
+            updated_players.append({**player, "elo": None, "in_game": False})
             continue
 
         summoner_id = get_summoner_id(puuid)
         if not summoner_id:
-            updated_players.append({**player, "elo": None})
+            updated_players.append({**player, "elo": None, "in_game": False})
             continue
 
         elo = get_elo(summoner_id)
-        updated_players.append({**player, "elo": elo})
+        in_game = is_in_game(summoner_id)  # Verificar si el jugador está en partida
+        if in_game is None:
+            in_game = False  # Asumir que no está en partida si hay un error
+
+        updated_players.append({**player, "elo": elo, "in_game": in_game})
 
     # Filtrar jugadores sin ELO y ordenar por LP
     ranking = [p for p in updated_players if p['elo']]
