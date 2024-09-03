@@ -62,7 +62,7 @@ players = [
     
     # Rogue
     { 'name': 'Finn', 'tag': '0306', 'realname': 'Finn', 'team': 'RGE', 'role': 'top' },
-    { 'name': 'Barkoon', 'tag': 'woof', 'realname': 'Markoon', 'team': 'RGE', 'role': 'jungle' },
+    { 'name': 'goodjob', 'tag': 'nerd', 'realname': 'Markoon', 'team': 'RGE', 'role': 'jungle' },
     { 'name': 'george kittle', 'tag': 'EUW', 'realname': 'Larssen', 'team': 'RGE', 'role': 'mid' },
     { 'name': 'Kite Machine', 'tag': 'EUW', 'realname': 'Comp', 'team': 'RGE', 'role': 'adc' },
     { 'name': 'Walid Georgey', 'tag': 'EUW', 'realname': 'Zoelys', 'team': 'RGE', 'role': 'support' },

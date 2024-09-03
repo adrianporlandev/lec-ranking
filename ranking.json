@@ -340,23 +340,6 @@
     "in_game": false
   },
   {
-    "name": "komanche uchiha",
-    "tag": "elite",
-    "realname": "Elyoya",
-    "team": "MDK",
-    "role": "jungle",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1262,
-      "wins": 337,
-      "losses": 280,
-      "winrate": 54.619124797406805,
-      "totalGames": 617
-    },
-    "in_game": false
-  },
-  {
     "name": "LeonardoDiCassio",
     "tag": "EUW",
     "realname": "Patrik",
@@ -370,6 +353,23 @@
       "losses": 186,
       "winrate": 55.714285714285715,
       "totalGames": 420
+    },
+    "in_game": false
+  },
+  {
+    "name": "komanche uchiha",
+    "tag": "elite",
+    "realname": "Elyoya",
+    "team": "MDK",
+    "role": "jungle",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1241,
+      "wins": 337,
+      "losses": 281,
+      "winrate": 54.53074433656958,
+      "totalGames": 618
     },
     "in_game": false
   },
@@ -450,11 +450,11 @@
     "elo": {
       "tier": "CHALLENGER",
       "rank": "I",
-      "leaguePoints": 1182,
-      "wins": 257,
+      "leaguePoints": 1201,
+      "wins": 258,
       "losses": 208,
-      "winrate": 55.26881720430108,
-      "totalGames": 465
+      "winrate": 55.36480686695279,
+      "totalGames": 466
     },
     "in_game": false
   },
