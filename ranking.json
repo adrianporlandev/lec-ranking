@@ -51,23 +51,6 @@
     "in_game": false
   },
   {
-    "name": "VIT top boy",
-    "tag": "lync1",
-    "realname": "Lyncas",
-    "team": "VIT",
-    "role": "jungle",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1724,
-      "wins": 257,
-      "losses": 191,
-      "winrate": 57.36607142857143,
-      "totalGames": 448
-    },
-    "in_game": false
-  },
-  {
     "name": "TheShackledOne",
     "tag": "003",
     "realname": "Caps",
@@ -81,6 +64,23 @@
       "losses": 239,
       "winrate": 56.14678899082569,
       "totalGames": 545
+    },
+    "in_game": false
+  },
+  {
+    "name": "VIT top boy",
+    "tag": "lync1",
+    "realname": "Lyncas",
+    "team": "VIT",
+    "role": "jungle",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1704,
+      "wins": 257,
+      "losses": 192,
+      "winrate": 57.23830734966593,
+      "totalGames": 449
     },
     "in_game": false
   },
@@ -272,6 +272,23 @@
     "in_game": false
   },
   {
+    "name": "I will win LEC",
+    "tag": "4321",
+    "realname": "Vetheo",
+    "team": "VIT",
+    "role": "mid",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1358,
+      "wins": 266,
+      "losses": 209,
+      "winrate": 56.00000000000001,
+      "totalGames": 475
+    },
+    "in_game": false
+  },
+  {
     "name": "Mametchi",
     "tag": "tukan",
     "realname": "Fresskowy",
@@ -285,23 +302,6 @@
       "losses": 246,
       "winrate": 55.27272727272727,
       "totalGames": 550
-    },
-    "in_game": false
-  },
-  {
-    "name": "I will win LEC",
-    "tag": "4321",
-    "realname": "Vetheo",
-    "team": "VIT",
-    "role": "mid",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1338,
-      "wins": 265,
-      "losses": 209,
-      "winrate": 55.907172995780584,
-      "totalGames": 474
     },
     "in_game": false
   },
@@ -391,6 +391,23 @@
     "in_game": false
   },
   {
+    "name": "PlaceHolderJG",
+    "tag": "HRT",
+    "realname": "Jankos",
+    "team": "TH",
+    "role": "jungle",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1223,
+      "wins": 358,
+      "losses": 309,
+      "winrate": 53.67316341829086,
+      "totalGames": 667
+    },
+    "in_game": false
+  },
+  {
     "name": "Ana de Armas",
     "tag": "SMRAD",
     "realname": "Jackies",
@@ -421,23 +438,6 @@
       "losses": 326,
       "winrate": 53.62731152204836,
       "totalGames": 703
-    },
-    "in_game": false
-  },
-  {
-    "name": "PlaceHolderJG",
-    "tag": "HRT",
-    "realname": "Jankos",
-    "team": "TH",
-    "role": "jungle",
-    "elo": {
-      "tier": "CHALLENGER",
-      "rank": "I",
-      "leaguePoints": 1204,
-      "wins": 357,
-      "losses": 309,
-      "winrate": 53.6036036036036,
-      "totalGames": 666
     },
     "in_game": false
   },

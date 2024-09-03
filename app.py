@@ -177,7 +177,7 @@ def update_ranking():
 
 # Programar la tarea de actualización cada 30 minutos
 scheduler = BackgroundScheduler()
-scheduler.add_job(update_ranking, 'interval', minutes=30)
+scheduler.add_job(update_ranking, 'interval', minutes=3)
 scheduler.start()
 
 @app.route('/ranking', methods=['GET'])
